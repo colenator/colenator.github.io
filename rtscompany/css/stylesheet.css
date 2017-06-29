@@ -1,0 +1,781 @@
+/* Global */
+body,html {
+    padding: 0;
+    margin: 0;
+    font: 16px/1.5 "Roboto", sans-serif;
+    background: #f4f4f4;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.flex-container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1  {
+    height: 40px;
+    background: #172a3a;
+    color: #bababa;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.button_1 input[type="submit"] {
+    padding: 25px;
+}
+
+.button_1:hover {
+    background: #508991;
+    color: #FFFFFF;
+}
+
+#highlight {
+    color: #ffffff;
+    background: #508991;
+}
+
+#highlight:hover {
+    background: #508991;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #bababa;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.section-title {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+}
+
+
+.twitter-icon {
+    background: url("../images/social-media/004-twitter.svg");
+    color: none;
+}
+
+.facebook-icon {
+    background: darkblue;
+}
+
+.instagram-icon {
+    background: grey;
+}
+
+.googleplus-icon {
+    background: red;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    background-color: #172a3a;
+    height: 10%;
+}
+
+header li {
+    list-style-type: none;
+    align-items: center;
+
+}
+header a {
+    font-size: 25px;
+    color: #bababa;
+    transition: all .3s ease;
+}
+
+.branding {
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.navbar-header .branding a {
+    font-size: 2vh;
+    font-weight: 700;
+}
+
+.branding a:hover {
+    color: #FFFFFF;
+    background-color: none;
+}
+
+/* Header Navbar */
+.navbar-header .branding a {
+    font-size: 2vh;
+    font-weight: 900;
+
+}
+
+.navbar-header {
+    font-family: Helvetica;
+    width: 100%;
+    display: flex;
+}
+
+.navbar-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-header a {
+    display: block;
+    padding: 30px 25px;
+    font-size: 18px;
+}
+
+.navbar-header ul a:hover {
+    background-color:#508991;
+    color: white;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.label-toggle {
+    display: none;
+}
+
+
+
+
+/* USP/Showcase */
+#usp-intro {
+    height: 30em;
+    background: url("../images/IBM-Tech-gradient.jpg") no-repeat;
+    color: #eeeeee;
+}
+
+#usp-intro h1{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#usp-intro p {
+    font-size: 25px;
+}
+
+#usp-center-column {
+    min-height: 30em;
+    text-align: center;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+}
+
+/* Main Proposition */
+#main-proposition {
+    height: 26em;
+    display: flex;
+}
+
+#main-proposition .main-prop-div {
+    text-align: center;
+    margin-top: 20px;
+    min-width: 50%;
+}
+
+#main-proposition .main-prop-div h1,
+#main-proposition .main-prop-div h2,
+#main-proposition .main-prop-div p,
+#main-proposition .main-prop-div .section-title  {
+    text-align: left;
+}
+
+#main-proposition .main-prop-div .section-title {
+    margin-left: 0;
+}
+
+
+#main-proposition .main-prop-div img {
+    max-width: 300px;
+}
+
+
+/* Why Choose Us */
+
+#why-choose-us {
+    text-align: center;
+    background: #172a3a;
+    color: white;
+}
+
+#why-choose-us .section-title {
+    max-height: 20%;
+}
+
+#why-choose-us h2,
+#why-choose-us h3  {
+    margin: auto;
+    text-align: center;
+}
+
+#why-choose-us .flex-container {
+    min-height: 80%;
+}
+.why-choose-us-feature {
+    width: 30%;
+    padding: 0 25px 0 25px;
+    margin-top: 0;
+    flex-wrap: wrap;
+    min-height: 80%;
+}
+
+.why-choose-us-feature img {
+    max-width: 100px;
+}
+
+/* Contact Form */
+
+#contact-form-section {
+    height: 475px;
+    background: #f4f4f4;
+}
+
+#contact-form-section .flex-container {
+    margin: 25px auto;
+    border-radius: 5px;
+    min-height: 80%;
+    background-color: rgba(0,0,0,0.1);
+    width: 450px;
+}
+
+#contact-form-section .section-title {
+    max-height: 10%;
+}
+
+#contact-form {
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    min-height: 50%;
+}
+
+#contact-form form input[type="text"], #contact-form form input[type="email"] {
+    text-align: left;
+    font-size: 22px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+#contact-form textarea[name="Message"] {
+    margin-top: 15px;
+    resize: none;
+    height: 100px;
+    width: 74%;
+}
+
+#contact-form form input[type="submit"] {
+    margin: 15px 0;
+    width: 76%;
+    height: 80px;
+    text-align: center;
+}
+
+
+/*               */
+/* Pricing Page */
+/*               */
+
+
+#pricing-maincol {
+    height: 80%;
+}
+
+article {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#pricing-maincol .section-title {
+    padding: 20px;
+}
+
+.pricing-selection {
+    display: flex;
+    color: black;
+}
+
+.pricing-selection div {
+    margin: auto;
+    margin-top: 100px;
+}
+
+.pricing-selection ul li {
+    width: 100%;
+    text-align: center;
+    padding: 15px 5px;
+    border: 1px solid black;
+}
+
+.pricing-selection li {
+    background: #f1f1f1;
+    width: 50%;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.pricing-selection .pricing-plan:hover, .pricing-plan:nth-child(2) {
+    box-shadow: 0 0px 50px 0 #000;
+}
+
+
+.pricing-plan {
+    transition: 0.3s;
+    width: 30%;
+}
+
+.pricing-features .pricing-plan-title.pricing-recommended {
+    background-color: #27CE61;
+}
+
+.pricing-features {
+    transition: 0.3s;
+}
+
+.pricing-features .pricing-plan-title {
+    background: #172a3a;
+    color: white;
+}
+
+.pricing-button a {
+    color: #172a3a;
+}
+
+
+.pricing-button, .pricing-button.pricing-recommended {
+    padding: 10px 30px;
+    border: 0;
+}
+
+.pricing-button {
+    background-color: #172a3a;
+    color: white;
+    border-radius: 5px;
+}
+
+.pricing-recommended {
+    font: 16px;
+    color: white;
+    background-color: #27CE61;
+    margin: 0;
+}    
+
+
+
+/*               */
+/* About Section */
+/*               */
+
+
+
+#our-team {
+    text-align: center;
+    min-height: 80%;
+}
+
+#our-team .section-title {
+    padding-top: 50px;
+}
+
+#our-team ul {
+    padding-top: 110px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#our-team ul li {
+    width: 20%;
+    display: inline-flex;
+}
+
+
+.team-member {
+    height: 100%;
+    background: #bababa;
+    margin: auto;
+    width: 275px;
+}
+
+.team-member h2, .team-member  p {
+    margin: 5px;
+}
+
+.team-member-portrait img {
+    max-width: 188px;
+    margin: 10px;
+}
+
+.team-member-name {
+    font-size: 16px;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: #172a3a;
+    height: 10%;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li {
+    list-style-type: none;
+
+}
+
+footer a {
+    font-size: 16px;
+    color: #bababa;
+    text-decoration: none;
+}
+/* Footer Navigation */
+.navbar-footer {
+    min-width: 100%;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar-footer .branding a {
+    font-size: 2vh;
+}
+
+.navbar-footer ul {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.navbar-footer a {
+    display: block;
+    padding: 29px;
+    flex-flow: column;
+    font-size: 14px;
+}
+
+.navbar-footer a:hover {
+    color: white;
+}
+
+
+.navbar-footer ul li > ul  {
+    color:red;
+}
+
+
+
+
+
+
+/* Media Queries @940px */
+@media(max-width: 950px) {
+    
+    /* Global Mobile */
+    body, html {
+        height: auto;
+    }
+    
+    
+    .button_list {
+        margin-top: 40px;
+    }
+
+    .button_list a {
+        padding: 30px;
+        margin-right: 15px;
+    }
+    
+    .flex-container {
+        width: 80%;
+        overflow: inherit;
+    }
+    
+    /* Header Mobile */
+    header {
+        padding: 10px;
+        z-index: 2;
+    }
+    
+    header ul, 
+    header li  {
+        text-align: center;
+        width: 100%;
+        display: block;
+        z-index: 2;
+    }
+    
+
+    header .flex-container {
+        width: 100%;
+        flex-flow: row;
+        display: block;
+    }
+    
+    .logo {
+        display: inline-block;
+    }
+
+
+    .navbar-header {
+        margin: 0 auto;
+        height: 50%;
+        min-width: 100%;
+        order: 1;
+        display:block;
+        z-index: 2;
+    }
+    
+    .navbar-header .branding a {
+        width: 100%;
+        font: 7vh arial;
+    }
+    
+
+    .navbar-header ul {
+        min-height: 50%;
+        margin: auto;
+        display: block;
+        opacity: 0;
+        height: 0;
+        width: 100%;
+        transition: all 1s ease;
+        visibility: hidden;
+        z-index: 2;
+    }
+    
+
+    
+    
+    .navbar-header a {
+        font-size: 15px;
+        font: 3vh arial;
+        width: 100%;
+        margin: 0;
+        padding: 25px 0;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    
+    
+    .label-toggle {
+        background: linear-gradient(to bottom, #508991 0%, #508991 20%, transparent 20%, transparent 40%, #508991 40%, #508991 60%, transparent 60%, transparent 80%, #508991 80%, #508991 100%);
+        cursor: pointer;
+        display: flex;
+        float: right;
+        height: 35px;
+        margin-top: 1em;
+        width: 35px;
+    }
+    
+    #menu-toggle:checked ~ ul {
+        opacity: 1;
+        height:35vh;
+        z-index: 2;
+        visibility: visible;
+    }
+    
+    /* Showcase Mobile */
+    
+    #usp-intro h1 {
+        font-size: 55px;
+    }
+    
+    #usp-intro h1 {
+        font-size: 4vh;
+    }
+    
+    
+    .button_list a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 75%;
+    }
+    
+    /* Main Prop */
+
+    .main-prop-div {
+        min-width: 50%;
+        padding-right: 20px;
+        flex-wrap: wrap;
+        font-size: 2.5vw;
+        margin: 0;
+    }
+    
+    .main-prop-div .section-title h2 {
+        font-size: 5vw;
+    }
+
+    .main-prop-div p {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    
+    #main-proposition .main-prop-div img {
+        max-width: 100%;
+    }
+
+    
+
+    
+    /* Why Choose Us Mobile */
+
+    #why-choose-us {
+        min-width: 33%;
+        min-height: 30%;
+        text-align: center;
+        background: #172a3a;
+        color: white;
+    }
+
+    #why-choose-us .flex-container {
+        min-height: 50%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #why-choose-us .flex-container .why-choose-us-feature {
+        min-height: 20%;
+        width: 100%;
+        margin-bottom: 65px;
+        text-align: center;
+        background: #172a3a;
+        color: white;
+    }
+
+    section#why-choose-us .section-title {
+        max-height: 20%;
+        text-align: center;
+        margin-right: 7%;
+    }
+    
+    /* Contact Form @940px */
+    
+section#contact-form-section .flex-container {
+        margin: 25px auto;
+        border-radius: 5px;
+        min-height: 80%;
+        background-color: rgba(0,0,0,0.1);
+        min-width: 30%;
+    }
+    
+    /* Footer @940px */
+    footer {
+        display: none;
+    }
+    
+    /* Pricing @940px */
+    .pricing-selection {
+        display: block;
+        width: 100%;
+    }
+    
+    .pricing-plan {
+        width: 90%;
+        padding: 0;
+    }
+    
+    .pricing-selection div {
+        margin-top: 25px;
+    }
+    
+    /* About Us @940px */
+    
+    
+    #our-team ul li {
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+    }
+    
+    #our-team ul {
+        padding: 0;
+    }
+    
+    team-member-desc h2 {
+        font-size: 3vw;
+    }
+    
+    #our-team team-member-desc h2 {
+        font-size: 3vw;
+    }
+
+}
+
+/* Media Query @800px */
+@media(max-width: 800px) {}
