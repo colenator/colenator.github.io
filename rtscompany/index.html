@@ -11,9 +11,7 @@
         <meta charset="UTF-8">
         <title>Remote Tech Support | Home</title>
     </head>
-    
-    
-    <!--You've added height to the HTML/Body elements so the pricing and about pages wouldn't need scrolling. However this has broken the mobile menu. On live preview hover, you can see the transition happen then the links get stuck behind whatever elements its on top of. You need to find a way to bring those elements to the front page. Try applying z-index for find another way of doing this.-->
+
     <body>
     <!-- Header Section -->
         <header>
@@ -97,9 +95,14 @@
                         <h2>Get in touch</h2>
                     </div>
                     <form>
-                        <input type="text" name="name" placeholder="Name" required="yes">
-                        <input type="email" name="Email" placeholder="Email" required="yes">
-                        <textarea type="text" name="Message" placeholder="Message"></textarea>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name..." required="yes">
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email..." required="yes">
+                        
+                        <label for="Message">Message</label>
+                        <textarea type="text" id="message" name="Message" placeholder="Message..."></textarea>
                         <input class="button_1" type="submit" name="Submit">
                     </form>
                 </div>

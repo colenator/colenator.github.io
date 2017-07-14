@@ -280,7 +280,7 @@ header a {
 }
 .why-choose-us-feature {
     width: 30%;
-    padding: 0 25px 0 25px;
+    padding: 0 25px;
     margin-top: 0;
     flex-wrap: wrap;
     min-height: 80%;
@@ -293,32 +293,39 @@ header a {
 /* Contact Form */
 
 #contact-form-section {
-    height: 475px;
     background: #f4f4f4;
 }
 
 #contact-form-section .flex-container {
-    margin: 25px auto;
-    border-radius: 5px;
-    min-height: 80%;
-    background-color: rgba(0,0,0,0.1);
-    width: 450px;
+    height: 650px;
 }
 
 #contact-form-section .section-title {
     max-height: 10%;
 }
 
+#contact-form label {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
 #contact-form {
     border-radius: 5px;
     text-align: center;
+    max-width:450px;
     margin: auto;
     min-height: 50%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#contact-form form {
+    max-width: 450px;
 }
 
 #contact-form form input[type="text"], #contact-form form input[type="email"] {
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
     width: 70%;
     padding: 10px;
     border-radius: 5px;
@@ -708,6 +715,10 @@ footer a {
         flex-direction: column;
         text-align: center;
     }
+    
+    .why-choose-us-feature {
+        padding: 0;
+    }
 
     #why-choose-us .flex-container .why-choose-us-feature {
         min-height: 20%;
@@ -718,22 +729,14 @@ footer a {
         color: white;
     }
 
-    section#why-choose-us .section-title {
+    #why-choose-us .section-title {
         max-height: 20%;
         text-align: center;
-        margin-right: 7%;
     }
     
     /* Contact Form @940px */
     
-section#contact-form-section .flex-container {
-        margin: 25px auto;
-        border-radius: 5px;
-        min-height: 80%;
-        background-color: rgba(0,0,0,0.1);
-        min-width: 30%;
-    }
-    
+
     /* Footer @940px */
     footer {
         display: none;
@@ -767,11 +770,11 @@ section#contact-form-section .flex-container {
         padding: 0;
     }
     
-    team-member-desc h2 {
+    .team-member-desc {
         font-size: 3vw;
     }
     
-    #our-team team-member-desc h2 {
+    #our-team .team-member-desc h2 {
         font-size: 3vw;
     }
 
